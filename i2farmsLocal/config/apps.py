@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ThConfig(AppConfig):
+class ConfigConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'th'
+    name = 'config'
